@@ -26,6 +26,11 @@ db.once('open', () => {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.get('/',(req,resp)=>{
+  return resp.status(200).json({
+    message :'web is running'
+  })
+})
 // app.use('/user',userRoutes)
 app.use("/user", require("./routes/userRoutes"));
 app.use("/blog", require("./routes/blogRoutes"));
