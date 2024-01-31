@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 2000;
 
-const connectionString = 'mongodb+srv://kasifraza910:sibnB27frSypA6al@blog.vtq62tn.mongodb.net/blog_mongo_db';
+const connectionString = 
 
 mongoose.connect(connectionString, {
   useNewUrlParser: true,
