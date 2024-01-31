@@ -1,14 +1,14 @@
 const { body, validationResult } = require('express-validator');
 const cloudinary = require('cloudinary').v2; // Import Cloudinary SDK
 cloudinary.config({ 
-  cloud_name: 'dbv91f9i6', 
-  api_key: '752675721213484', 
-  api_secret: 'DnP9Bay7iWWUKm7-gJZH5gBNlnc' 
+  cloud_name: '', 
+  api_key: '', 
+  api_secret: '' 
 });
 cloudinary.config({ 
-    cloud_name: 'dbv91f9i6', 
-    api_key: '752675721213484', 
-    api_secret: 'DnP9Bay7iWWUKm7-gJZH5gBNlnc' 
+    cloud_name: '', 
+    api_key: '', 
+    api_secret: '' 
   });
 // Create Blog Validation
 const validateCreateBlog = [
